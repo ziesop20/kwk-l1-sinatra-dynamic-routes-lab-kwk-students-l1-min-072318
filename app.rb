@@ -1,9 +1,9 @@
 require_relative 'config/environment'
 
 class App < Sinatra::Base
-  get'/reversename/:name' do 
-    @name= params [:name].reverse
-    end 
+  # get'/reversename/:name' do 
+  #   @name= params [:name].reverse
+  #   end 
     
   get '/square/:num1' do
   @num1= params [:num1].to_i
